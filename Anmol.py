@@ -422,13 +422,13 @@ class Main:
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
 		TUTUL =input(" Choose : ")
-		if ANMOL in ["1", "01"]:
+		if TUTUL in ["1", "01"]:
 			File()
 		if TUTUL in ["2", "02"]:
 			Public()
 		if TUTUL in ["3", "03"]:
 			os.system("python Dump.py")
-		if ANMOL in ["4", "04"]:
+		if TUTUL in ["4", "04"]:
 			self.old()
 		if TUTUL in ["5", "05"]:
 			self.old2()
